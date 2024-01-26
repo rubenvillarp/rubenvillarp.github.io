@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Elaboración dun compoñente | Creación de compoñentes visuais</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.d74e1dbf.css" as="style"><link rel="preload" href="/assets/js/app.c3b5a249.js" as="script"><link rel="preload" href="/assets/js/2.0c4bddf9.js" as="script"><link rel="preload" href="/assets/js/1.f8bb34da.js" as="script"><link rel="preload" href="/assets/js/28.30af992f.js" as="script"><link rel="prefetch" href="/assets/js/10.fde088a2.js"><link rel="prefetch" href="/assets/js/11.845e3692.js"><link rel="prefetch" href="/assets/js/12.27d4f152.js"><link rel="prefetch" href="/assets/js/13.52087e05.js"><link rel="prefetch" href="/assets/js/14.eb7a3d07.js"><link rel="prefetch" href="/assets/js/15.b60f3925.js"><link rel="prefetch" href="/assets/js/16.85253907.js"><link rel="prefetch" href="/assets/js/17.c2838453.js"><link rel="prefetch" href="/assets/js/18.3256f17f.js"><link rel="prefetch" href="/assets/js/19.d8afd0ae.js"><link rel="prefetch" href="/assets/js/20.0d880388.js"><link rel="prefetch" href="/assets/js/21.33b300c9.js"><link rel="prefetch" href="/assets/js/22.b119595f.js"><link rel="prefetch" href="/assets/js/23.77575adb.js"><link rel="prefetch" href="/assets/js/24.1045d6da.js"><link rel="prefetch" href="/assets/js/25.b908356e.js"><link rel="prefetch" href="/assets/js/26.0f234e10.js"><link rel="prefetch" href="/assets/js/27.02a9deb2.js"><link rel="prefetch" href="/assets/js/29.5243b155.js"><link rel="prefetch" href="/assets/js/3.af33e5d6.js"><link rel="prefetch" href="/assets/js/30.079dddd0.js"><link rel="prefetch" href="/assets/js/31.10d9d0da.js"><link rel="prefetch" href="/assets/js/32.a6f039ff.js"><link rel="prefetch" href="/assets/js/33.f65aa46e.js"><link rel="prefetch" href="/assets/js/34.577c7694.js"><link rel="prefetch" href="/assets/js/35.585c3da8.js"><link rel="prefetch" href="/assets/js/36.c9667f9a.js"><link rel="prefetch" href="/assets/js/4.9499c5db.js"><link rel="prefetch" href="/assets/js/5.7098d77a.js"><link rel="prefetch" href="/assets/js/6.0c0a0f39.js"><link rel="prefetch" href="/assets/js/7.6a854e57.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.77260563.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d74e1dbf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Creación de compoñentes visuais</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/componentes/" class="nav-link router-link-active">
+  Compoñentes
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/componentes/" class="nav-link router-link-active">
+  Compoñentes
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Compoñentes</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/componentes/" aria-current="page" class="sidebar-link">Indice</a></li><li><a href="/componentes/componentes.html" class="sidebar-link">Que é un compoñente</a></li><li><a href="/componentes/javabean.html" class="sidebar-link">JavaBean</a></li><li><a href="/componentes/persistencia.html" class="sidebar-link">Persistencia</a></li><li><a href="/componentes/propiedades.html" class="sidebar-link">Propiedades</a></li><li><a href="/componentes/elaboracion-componentes.html" aria-current="page" class="active sidebar-link">Elaboración dun compoñente</a></li><li><a href="/componentes/editor-personalizado.html" class="sidebar-link">Editor de propiedades personalizado</a></li><li><a href="/componentes/engadir-eventos.html" class="sidebar-link">Engadir un evento a un compoñente</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="elaboracion-dun-componente"><a href="#elaboracion-dun-componente" class="header-anchor">#</a> Elaboración dun compoñente</h1> <p>Nos seguintes apartados vaise ilustrar a elaboración dun compoñente personalizado
+utilizando a ferramenta NetBeans.</p> <p>O compoñente a elaborar será dun JPanel personalizado con unha imaxe de fondo.
+Ademais, permitirase configurar a transparencia da imaxe para que ao engadir outros
+compoñentes dentro do panel se vexan ben sobre a imaxe.</p> <p>O primeiro a realizar é crear un novo proxecto en NetBeans chamado JPanelImaxe con un
+paquete no seu interior chamado tamén <strong>jpanelimaxe</strong> e unha clase chamada JPanelImaxe.</p> <p>Como o compoñente vai ter as propiedades dun JPanel, debe estender este compoñente.</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JPanelImaxe</span> <span class="token keyword">extends</span> <span class="token class-name">JPanel</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre></div><p>A clase que implementa o compoñente ten que ser un JavaBean. Para que unha clase Java
+sexa un JavaBean ten que cumprir unhas características:</p> <p>  - Ten que implementar Serializable</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JPanelImaxe</span> <span class="token keyword">extends</span> <span class="token class-name">JPanel</span> <span class="token keyword">implements</span> <span class="token class-name">Serializable</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre></div><p>  - Ten que ter un construtor sen parámetros.</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">JPanelImaxe</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Con isto xa teriamos un compoñente básico creado e podería engadirse á paleta de
+NetBeans.</p> <p>Neste caso imos engadir a maiores unha propiedade ao compoñente que almacenará a ruta
+da imaxe de fondo do panel <strong>rutaImaxe</strong>. De tal forma que cando o compoñente se engada a unha aplicación Java, entre a lista de propiedades saia <strong>rutaImaxe</strong> para poder modificala.</p> <p>Nesta primeira versión, para a propiedade <strong>rutaImaxe</strong>, crearase unha propiedade simple de tipo <strong>String</strong> e tamén se engadirán os métodos get e set. Recoméndase xeralos con NetBeans para non confundirse ao establecer os seus nomes. Se non se escriben ben, a paleta de NetBeans non os recoñecerá.</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JPanelImaxe</span> <span class="token keyword">extends</span> <span class="token class-name">JPanel</span> <span class="token keyword">implements</span> <span class="token class-name">Serializable</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> rutaImaxe<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">JPanelImaxe</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getRutaImaxe</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> rutaImaxe<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setRutaImaxe</span><span class="token punctuation">(</span><span class="token class-name">String</span> rutaImaxe<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>rutaImaxe <span class="token operator">=</span> rutaImaxe<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Simplemente con isto, se se compila o compoñente (Clean and Build) xa se podería engadir o compoñente á paleta de NetBeans. Para iso hai que pulsar co <strong>botón dereito no compoñente -&gt; Ferramentas -&gt; Add to Palette</strong>. Seleccionar a categoría Beans, para ter organizados os Beans personalizados creados.</p> <p>Para comprobar que funciona pódese crear un novo proxecto Java e engadir un JFrame.
+Unha vez creado o JFrame, engadir o novo compoñente creado da paleta Beans.</p> <p><strong>NOTA</strong>: se o compoñente non aparece na paleta, hai que actualizala.</p> <p>Unha vez engadido o compoñente JPanelImaxe creado, comprobar que ten unha
+propiedade de tipo String chamada <strong>rutaImaxe</strong>.</p> <p>O valor da propiedade pode modificarse directamente na ventá anterior ou, se se pulsa o
+botón [...] da súa dereita, abrirase o editor personalizado:</p> <p>NetBeans proporciona editores por defecto para as propiedades simples: String, int, float, boolean (mostraría un checkbox).</p> <p>As propiedades de tipo Cor tamén teñen un editor por defecto en NetBeans.</p> <p>Se a propiedade é Font, mostra o editor personalizado para os tipos de letra.</p> <p>No caso de que a propiedade sexa de tipo File, o editor que mostra NetBeans é un explorador de arquivos.</p> <p>A continuación vaise modificar o compoñentes para que, en lugar de ter un String para
+almacenar a ruta da imaxe, sexa unha variable de tipo File para almacenar o ficheiro
+asociado a dita imaxe:</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JPanelImaxe</span> <span class="token keyword">extends</span> <span class="token class-name">JPanel</span> <span class="token keyword">implements</span> <span class="token class-name">Serializable</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span> <span class="token class-name">File</span> ficheiroImaxe<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">JPanelImaxe</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">File</span> <span class="token function">getFicheiroImaxe</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> ficheiroImaxe<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setFicheiroImaxe</span><span class="token punctuation">(</span><span class="token class-name">File</span> ficheiroImaxe<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>ficheiroImaxe <span class="token operator">=</span> ficheiroImaxe<span class="token punctuation">;</span>
+        <span class="token comment">// Hai que volver a pintar o compoñente cada vez que se cambia a imaxe</span>
+        <span class="token function">repaint</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Pode probarse a compilar o compoñente (Clean and Build) e engadilo a un JFrame. Sempre
+que se actualiza un compoñente, hai que borrar o antigo do JFrame de proba e engadir o
+novo.</p> <p>Comprobar agora que ao acceder ao editor da propiedade ficheiroImaxe se mostrara o
+explorador de arquivos:</p> <p>A continuación haberá que implementar o código necesario para que a imaxe seleccionada
+se estableza como imaxe de fondo do compoñente. Para iso é necesario saber cal é o
+método que se adica a pintar o compoñente.</p> <p>Non é necesario coñecer todos os métodos dun compoñente. A maioría das veces haberá
+que buscar en internet cal é o que se necesita e modificalo. Neste caso, o método que pinta a imaxe é <a href="https://docs.oracle.com/en/java/javase/15/docs/api/java.desktop/javax/swing/JComponent.html#paintComponent(java.awt.Graphics)" target="_blank" rel="noopener noreferrer">paintComponent<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> de <a href="https://docs.oracle.com/en/java/javase/15/docs/api/java.desktop/javax/swing/JComponent.html" target="_blank" rel="noopener noreferrer">JComponent<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. Como a clase JPanelImaxe xa herda de JComponent, haberá que sobrescribir o método coa axuda de NetBeans: botón dereito na <strong>clase JPanelImaxe -&gt; Insert Code -&gt; Override Method</strong>. Buscar o método paintComponent de JComponent.</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Override</span>
+<span class="token keyword">protected</span> <span class="token keyword">void</span> <span class="token function">paintComponent</span><span class="token punctuation">(</span><span class="token class-name">Graphics</span> g<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">paintComponent</span><span class="token punctuation">(</span>g<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>ficheiroImaxe <span class="token operator">!=</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> ficheiroImaxe<span class="token punctuation">.</span><span class="token function">exists</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">ImageIcon</span> imageIcon <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ImageIcon</span><span class="token punctuation">(</span>ficheiroImaxe<span class="token punctuation">.</span><span class="token function">getAbsolutePath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        g<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span>imageIcon<span class="token punctuation">.</span><span class="token function">getImage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Fixarse na comprobación que se fai co <strong>if</strong>. Faise para asegurar que a propiedade teña un  valor e a imaxe exista. Poderían facerse máis comprobacións para asegurar que o código funciona correctamente.</p> <p>Podemos volver a compilar o compoñente (Clean and Build) e engadilo ao JFrame. Asignar
+unha imaxe á propiedade rutaImaxe e comprobar que se amosa como imaxe de fondo do
+panel.</p> <p>Dado que o compoñente é un JPanel, tamén poderían engadirse máis elementos á ventá.</p> <p>Tamén podemos probar a executar a aplicación e comprobar que funciona:</p> <p>A continuación imos ver como cambiar a opacidade da imaxe para que quede máis
+transparente e se visualicen mellor os compoñentes que se engadan ao panel: etiquetas,
+botóns, caixas de texto, …</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/componentes/propiedades.html" class="prev">
+        Propiedades
+      </a></span> <span class="next"><a href="/componentes/editor-personalizado.html">
+        Editor de propiedades personalizado
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c3b5a249.js" defer></script><script src="/assets/js/2.0c4bddf9.js" defer></script><script src="/assets/js/1.f8bb34da.js" defer></script><script src="/assets/js/28.30af992f.js" defer></script>
+  </body>
+</html>
